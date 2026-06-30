@@ -7,17 +7,26 @@
     <link href="css/style.css" rel="stylesheet" />
     <style>
       .link-to {
-        display: flex;
-        justify-content: space-between;
+        display: block important!;
+        /* justify-content: space-between; */
+      }
+      a {
+        display: block;
       }
     </style>
   </head>
   <body>
     <h1>Odin Recipes</h1>
-    <div class="link-to">
-      <a href="recipes/lasagna.html">Recipe Lasagna</a>
-      <a href="recipes/lasagna.html">Recipe Tahu Tempe</a>
-      <a href="recipes/lasagna.html">Recipe Kacang ijo</a>
-    </div>
+    <ol class="link-to">
+      <li>
+        <a href="recipes/lasagna.html">Recipe Lasagna</a>
+      </li>
+      <li>
+        <a href="recipes/lasagna.html">Recipe Tahu Tempe</a>
+      </li>
+      <li>
+        <a href="recipes/lasagna.html">Recipe Kacang ijo</a>
+      </li>
+    </ol>
   </body>
 </html>
